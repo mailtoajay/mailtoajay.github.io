@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> HTML Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="form-container">
+		<h1>User Registration Form:</h1>
+		<form class="form-style">
+			<span class="firstColumn">First Name: </span>
+			<input type="text" name="firstName"><br><br>
+			<span class="firstColumn">Last Name: </span>
+			<input type="text" name="lastName"><br><br>
+			<span class="firstColumn">Gender:</span> 
+			<input type="radio" name="gender">Male
+			<input type="radio" name="gender">Female
+			<input type="radio" name="gender"> Other <br><br>
+			<span class="firstColumn">Date of Birth </span>
+			<input type="date" name="dateOfBirth"><br><br>
+			<span class="firstColumn">Email: </span>
+			<input type="email" name="emailId" min="7"><br><br>
+			<span class="firstColumn">Password: </span>
+			<input type="password" name="password"><br><br>
+			<span class="firstColumn">City:</span>
+			<select name="city" style="width:172px;">
+				<option>Hyderabad</option>
+				<option>Delhi</option>
+				<option>Mumbai</option>
+				<option>Bengaluru</option>
+			</select> <br><br>
+			<span class="firstColumn">Address:</span>
+			<textarea name="address" cols="21" rows="5" style="vertical-align:top;">Perhaps a you could make JSfiddle to demonstrate your issue as removing the border (probably poor UX) makes no difference in the Codepen example? </textarea><br><br>
+			<span class="firstColumn">Qualification:</span>
+			<span class="secondColumn">
+				<input type="checkbox" name="post-grad"> Post-Graduate<br>
+				<input type="checkbox" name="grad"> Graduate<br>
+				<input type="checkbox" name="intermediate"> Intermediate <br><br>
+			</span>
+			<span style="display: inline-block; margin: 0 auto;width:100%;text-align: left;">
+				<input type="submit" name="submit" value="Register" style=margin-right:5px;>
+				<input type="reset" name="reset" value="Reset"><br><br>
+			</span>
+		</form>
+	</div>
+</body>
+</html>
