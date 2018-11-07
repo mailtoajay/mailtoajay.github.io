@@ -78,7 +78,10 @@
 }
 
 @media (max-width: 576px){
+
 .navbar {padding: 0;}
-.xsMarTop{margin-top: 150px!important;}
+.xsMarTop{margin-top: 102px!important;}
 .xsFooterPadding{padding-bottom:10px;}
+.xsLogoSize{width: 210px;float:left;}
+
 }
